@@ -15,11 +15,11 @@ several real-world examples from my professional experience where these tools we
 
 It is possible to attend and only watch but I'd recommend to have machine with Python 3,
 numpy, scipy and matplotlib already installed. Windows and Mac users can achieve this
-by installing [Python distribution Anaconda with all required packages already present]
-(https://www.anaconda.com/distribution/). Linux users can follow
-[these instructions](https://www.scipy.org/install.html). Anyway, there will be short
-section of workshop dedicated to installation for those who didn't have time
-for installation before.
+by installing
+[Python distribution Anaconda with all required packages already present](https://www.anaconda.com/distribution/).
+Linux users can follow [these instructions](https://www.scipy.org/install.html).
+Anyway, there will be short section of workshop dedicated to installation for those
+who didn't have time for installation before.
 
 ## Real-world examples
 
