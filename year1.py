@@ -15,10 +15,9 @@ if __name__ == "__main__":
 
     x = range(first_year, last_year + 1)
     y = range(1, 365 + 1)
-    X, Y = np.meshgrid(x, y)
 
     dt2day_of_year = lambda dt: dt.timetuple().tm_yday
-    T = np.zeros_like(X)
+    T = np.zeros((len(y), len(x)))
     for i, t in enumerate(temperature):
         dt = dates[i]
         x_i = dt.year - first_year
