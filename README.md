@@ -1,5 +1,9 @@
 # NumPy, SciPy and Matplotlib workshop for PyCon CZ 2019
 
+## Presentation
+
+https://docs.google.com/presentation/d/19V9Vx1uCbTZBhQJHM0fzK7DKgc739AQvV1H3fsTZH6k/edit#slide=id.g599ad15b74_0_69
+
 [Original workshop description](https://cz.pycon.org/2019/programme/workshops/7/#main)
 
 It is well possible to use Python as powerful graphical calculator and replace specialized
