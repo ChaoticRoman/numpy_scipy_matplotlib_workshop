@@ -14,8 +14,8 @@ if __name__ == "__main__":
     plt.plot(dates, minT, 'b.', markersize=markersize)
     plt.plot(dates, avgT, 'g.', markersize=2*markersize)
 
-    plt.plot(dates, moving_average(maxT, N), 'r')
+    plt.plot(dates, moving_average(avgT, 7), 'b', lw=.1)
     plt.plot(dates, moving_average(minT, N), 'b.')
-    plt.plot(dates, moving_average(avgT, N), 'g.')
-
+    
+    plt.grid()
     plt.show()

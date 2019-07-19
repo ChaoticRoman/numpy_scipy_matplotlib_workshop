@@ -7,4 +7,5 @@ if __name__ == "__main__":
     plt.plot(dates, data[:,0], 'g.')
     plt.plot(dates, data[:,1], 'r.')
     plt.plot(dates, data[:,2], 'b.')
+    plt.grid()
     plt.show()

@@ -27,6 +27,7 @@ if __name__ == "__main__":
             T[y_i,x_i] = t # row (i.e. y) is first index
 
     fig, ax = plt.subplots()
-    cs = ax.contourf(X, Y, T, cmap=cm.coolwarm)
+    cs = ax.contourf(X, Y, T, range(-20, 40, 10),
+        cmap=cm.coolwarm, extent="both", antialiased=False)
     cbar = fig.colorbar(cs)
     plt.show(cs)
