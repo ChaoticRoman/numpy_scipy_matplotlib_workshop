@@ -1,6 +1,6 @@
 import numpy as np
 
-def moving_average(x, n):
+def moving_average(x, n, centered=True):
     # prepare input
     x = np.array(x, dtype=np.float64)
     L = len(x)
@@ -12,6 +12,9 @@ def moving_average(x, n):
 
     # moving average:
     result[n-1:] = sum([x[n-i-1:L-i] for i in range(n)]) / n
+
+    if centered:
+        result = np.hstack((result[n//2:], result[:n//2]))
 
     return result
 
